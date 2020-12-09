@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">weather app</string>
+    <string name="city_name">city name</string>
+    <string name="name_to_day">ToDay Is :</string>
+    <string name="currntState">Cloudy</string>
+    <string name="first_day">Sunday</string>
+    <string name="second_day">Monday</string>
+    <string name="third_day">Tuesday</string>
+    <string name="fourth_day">Wednesday</string>
+    <string name="fifth_day">Thursday</string>
+</resources>
