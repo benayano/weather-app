@@ -3,10 +3,12 @@
     <string name="app_name">מזג אוויר😉</string>
     <string name="city_name">שם העיר</string>
     <string name="name_to_day">היום יום ראשון</string>
-    <string name="currntState">מעומן חלקית</string>
+    <string name="currentState">מעומן חלקית</string>
     <string name="first_day">יום ראשון</string>
     <string name="second_day">יום שני</string>
     <string name="third_day">יום שלישי</string>
     <string name="fourth_day">יום רביעי</string>
     <string name="fifth_day">יום חמישי</string>
+    <string name="sixth_day">יום שישי</string>
+    <string name="seventh_day">שבת</string>
 </resources>

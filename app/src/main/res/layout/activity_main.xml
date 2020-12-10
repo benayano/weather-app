@@ -36,116 +36,6 @@
         app:layout_constraintStart_toStartOf="@+id/firstRowImg"
         app:layout_constraintTop_toBottomOf="@+id/firstRowImg" />
 
-    <TextView
-        android:id="@+id/dateFirstRow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:padding="10dp"
-        android:text="30~"
-        app:layout_constraintBottom_toBottomOf="@+id/centreImg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/centreImg"
-        app:layout_constraintTop_toTopOf="@+id/centreImg" />
-
-    <TextView
-        android:id="@+id/dateSecondRow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:padding="10dp"
-        android:text="30~"
-        app:layout_constraintBottom_toBottomOf="@+id/secondRowImg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/secondRowImg"
-        app:layout_constraintTop_toTopOf="@+id/secondRowImg" />
-
-    <!--temperature-->
-
-    <TextView
-        android:id="@+id/dateThirdRow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:padding="10dp"
-        android:text="30~"
-        app:layout_constraintBottom_toBottomOf="@+id/thirdRowImg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/thirdRowImg"
-        app:layout_constraintTop_toTopOf="@+id/thirdRowImg" />
-
-    <TextView
-        android:id="@+id/dateFourthRow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:padding="10dp"
-        android:text="30~"
-        app:layout_constraintBottom_toBottomOf="@+id/FourthRowImg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/FourthRowImg"
-        app:layout_constraintTop_toTopOf="@+id/FourthRowImg" />
-
-    <TextView
-        android:id="@+id/temperatureFirstRow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:padding="10dp"
-        android:text="this is temperature 1"
-        app:layout_constraintBottom_toBottomOf="@+id/centreImg"
-        app:layout_constraintEnd_toStartOf="@+id/centreImg"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/centreImg" />
-
-    <TextView
-        android:id="@+id/temperatureSecondRow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:padding="10dp"
-        android:text="this is temperature 2"
-        app:layout_constraintBottom_toBottomOf="@+id/secondRowImg"
-        app:layout_constraintEnd_toStartOf="@+id/secondRowImg"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/secondRowImg" />
-
-    <TextView
-        android:id="@+id/temperatureThirdRow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:padding="10dp"
-        android:text="this is temperature 3"
-        app:layout_constraintBottom_toBottomOf="@+id/thirdRowImg"
-        app:layout_constraintEnd_toStartOf="@+id/thirdRowImg"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/thirdRowImg" />
-
-    <TextView
-        android:id="@+id/temperatureFourthRow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:padding="10dp"
-        android:text="this is temperature 4"
-        app:layout_constraintBottom_toBottomOf="@+id/FourthRowImg"
-        app:layout_constraintEnd_toStartOf="@+id/FourthRowImg"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/FourthRowImg" />
-
-
-    <ImageView
-        android:id="@+id/centreImg"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_margin="10dp"
-        android:padding="0dp"
-        android:src="@mipmap/ic_launcher"
-        app:layout_constraintBottom_toTopOf="@+id/secondRowImg"
-        app:layout_constraintEnd_toEndOf="@+id/secondRowImg"
-        app:layout_constraintStart_toStartOf="@+id/secondRowImg" />
-
     <ImageView
         android:id="@+id/firstRowImg"
         android:layout_width="wrap_content"
@@ -154,45 +44,8 @@
         android:padding="15dp"
         android:src="@mipmap/ic_launcher"
         app:layout_constraintEnd_toEndOf="@+id/city"
-        app:layout_constraintLeft_toRightOf="@id/temperatureFirstRow"
-        app:layout_constraintRight_toLeftOf="@id/dateFirstRow"
         app:layout_constraintStart_toStartOf="@+id/city"
         app:layout_constraintTop_toBottomOf="@+id/city" />
-
-    <ImageView
-        android:id="@+id/secondRowImg"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_margin="10dp"
-        android:padding="0dp"
-        android:src="@mipmap/ic_launcher"
-        app:layout_constraintBottom_toTopOf="@+id/thirdRowImg"
-        app:layout_constraintEnd_toEndOf="@+id/thirdRowImg"
-        app:layout_constraintStart_toStartOf="@+id/thirdRowImg" />
-
-    <ImageView
-        android:id="@+id/thirdRowImg"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_margin="10dp"
-        android:padding="0dp"
-        android:src="@mipmap/ic_launcher"
-        app:layout_constraintBottom_toTopOf="@+id/FourthRowImg"
-        app:layout_constraintEnd_toEndOf="@+id/FourthRowImg"
-        app:layout_constraintStart_toStartOf="@+id/FourthRowImg" />
-
-    <ImageView
-        android:id="@+id/FourthRowImg"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_margin="10dp"
-        android:layout_marginBottom="168dp"
-        android:padding="0dp"
-        android:src="@mipmap/ic_launcher"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/city"
@@ -205,5 +58,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/weatherDaysList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="28dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentWeather" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
